@@ -1,19 +1,77 @@
 #menubar{
   width:100%;
-  height:75px;
-  color:#ffffff;
+  height:78px;
+  background-color:#ffffff;
   display:block;
-  position:absolute;
+  position:fixed;
   top:0;
   left:0;
+  z-index:10;
 }
 
-.band{
+#footer{
+  background-color:#ffffff;
   position:absolute;
-  height:20%;
+  height:80px;
   width:100%;
-  margin:0 0 0 0;
-  top:80%;
+  top:1820px;
+}
+
+#band3{
+  background-color:#3E97C4;
+  position:absolute;
+  height:360px;
+  width:100%;
+  top:1460px;
+}
+
+#band2{
+  background-color:#5CE4B4;
+  position:absolute;
+  height:500px;
+  width:100%;
+  top:810px;
+}
+
+#txt1{
+  position:relative;
+  float:left;
+  top:80px;
+  left:105px;
+  font-size:270%;
+  font-weight:950;
+  color:#5CE4B4;
+}
+
+#txt2{
+  position:relative;
+  top:140px;
+  font-size:270%;
+  color:#5CE4B4;
+  right:128px;
+}
+
+#txt3{
+  position:relative;
+  top:200px;
+  right:500px;
+  font-size:270%;
+  color:#5CE4B4;
+}
+
+#textmiddle{
+  text-align:left;
+  position:absolute;
+  top:520px;
+  height:370px;
+}
+
+#band1{
+  background-color:#3E97C4;
+  position:absolute;
+  height:320px;
+  width:100%;
+  top:200px;
 }
 
 #ticketicon{
@@ -38,6 +96,7 @@
 }
 
 body{
+  margin-top:75px;
   background-color:#ffffff;
 }
 
