@@ -1,0 +1,43 @@
+#menubar{
+  width:100%;
+  height:75px;
+  color:#ffffff;
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.band{
+  position:absolute;
+  height:20%;
+  width:100%;
+  margin:0 0 0 0;
+  top:80%;
+}
+
+#ticketicon{
+  right:64px;
+}
+
+#novaicon{
+  right:40px;
+}
+
+.icon{
+  float:right;
+  position:relative;
+  top:8px;
+  right:25px;
+}
+
+#logo{
+  position:relative;
+  left:8px;
+  top:8px;
+}
+
+body{
+  background-color:#ffffff;
+}
+
